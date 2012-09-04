@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6A4CB10-3301-4EAD-8804-E252183D3E16}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		smokesignal.vsmdi = smokesignal.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "campfire.NET", "campfire.NET\campfire.NET.csproj", "{C6C103AB-E925-4FBA-88AC-F37E43E30A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SmokeSignal", "TestCampfireAPI\Test_SmokeSignal.csproj", "{776880F8-D26F-421E-91A5-0C6DD500021F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifierLibrary", "NotifierLibrary\NotifierLibrary.csproj", "{32502307-C7BF-44A0-914F-C30E2AE8BEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeSignal", "SmokeSignal\SmokeSignal.csproj", "{5F67EFE7-0D1B-4EA7-9123-BB6F231A4AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeSignalSetup", "SmokeSignalSetup\SmokeSignalSetup.csproj", "{8CAB857E-B5B4-4310-A465-B242B387F060}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ServiceInstaller", "ServiceInstaller\ServiceInstaller.vdproj", "{373532D9-0B15-46C6-A73F-2BA2400900DB}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = smokesignal.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C103AB-E925-4FBA-88AC-F37E43E30A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C103AB-E925-4FBA-88AC-F37E43E30A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C103AB-E925-4FBA-88AC-F37E43E30A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C103AB-E925-4FBA-88AC-F37E43E30A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776880F8-D26F-421E-91A5-0C6DD500021F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776880F8-D26F-421E-91A5-0C6DD500021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776880F8-D26F-421E-91A5-0C6DD500021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776880F8-D26F-421E-91A5-0C6DD500021F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32502307-C7BF-44A0-914F-C30E2AE8BEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32502307-C7BF-44A0-914F-C30E2AE8BEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32502307-C7BF-44A0-914F-C30E2AE8BEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32502307-C7BF-44A0-914F-C30E2AE8BEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F67EFE7-0D1B-4EA7-9123-BB6F231A4AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F67EFE7-0D1B-4EA7-9123-BB6F231A4AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F67EFE7-0D1B-4EA7-9123-BB6F231A4AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F67EFE7-0D1B-4EA7-9123-BB6F231A4AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAB857E-B5B4-4310-A465-B242B387F060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAB857E-B5B4-4310-A465-B242B387F060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAB857E-B5B4-4310-A465-B242B387F060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAB857E-B5B4-4310-A465-B242B387F060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373532D9-0B15-46C6-A73F-2BA2400900DB}.Debug|Any CPU.ActiveCfg = Debug
+		{373532D9-0B15-46C6-A73F-2BA2400900DB}.Debug|Any CPU.Build.0 = Debug
+		{373532D9-0B15-46C6-A73F-2BA2400900DB}.Release|Any CPU.ActiveCfg = Release
+		{373532D9-0B15-46C6-A73F-2BA2400900DB}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

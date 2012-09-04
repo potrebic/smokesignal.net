@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NotifierLibrary" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="ScanForNewRoomIntervalSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">600</Value>
+    </Setting>
+    <Setting Name="ScanForUserChangesIntervalSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3600</Value>
+    </Setting>
+    <Setting Name="ScanForNewUserIntervalSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3600</Value>
+    </Setting>
+    <Setting Name="ScanForNewMessagesIntervalSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
